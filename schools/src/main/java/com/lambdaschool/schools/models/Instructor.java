@@ -11,8 +11,7 @@ import java.util.List;
  */
 @Entity
 @Table(name = "instructors")
-public class Instructor
-    extends Auditable
+public class Instructor extends Auditable
 {
     /**
      * The primary key (long) of the instructor table
