@@ -7,6 +7,6 @@ public class ResourceFoundException extends RuntimeException
 {
     public ResourceFoundException(String message)
     {
-        super("Error from a Lambda School Application " + message);
+        super("Found an issue with School: " + message);
     }
 }
